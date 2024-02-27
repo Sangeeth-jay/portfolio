@@ -5,7 +5,7 @@ import "./introduction.scss";
 
 const Introduction = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = "Hashen ".split("");
+  // const nameArray = "Hashen ".split("");
   const nameArray2 = "angeeth,".split("");
   const jobArray = "oftware Developer".split("");
 
