@@ -150,7 +150,7 @@
                     animation: fadeInRight 1s forwards;
         
                     &:hover {
-                        color: rgb(162, 162, 246);
+                        color: #ffd700;
                     }
         
                     @include breakpoint(md) {
