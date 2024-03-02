@@ -40,17 +40,14 @@ const About = () => {
           <br />
           <ul className="about__skillsList">
             <li className="about__skillsItems">Javascript(ES6+)</li>
-            {/* <li className='about__skillsItems'>Python</li> */}
             <li className="about__skillsItems">Tailwind CSS</li>
             <li className="about__skillsItems">NodeJS</li>
             <li className="about__skillsItems">ExpressJS</li>
             <li className="about__skillsItems">ReactJS</li>
             <li className="about__skillsItems">MongoDb</li>
             <li className='about__skillsItems'>Figma</li>
-            {/* <li className='about__skillsItems'>React Redux</li> */}
             <li className="about__skillsItems">SQL</li>
-            {/* <li className='about__skillsItems'>Data Structures</li> */}
-            {/* <li className='about__skillsItems'>Algorithms</li> */}
+
           </ul>
         </div>
         <span className="sectiontag">&lt;/section&gt;</span>

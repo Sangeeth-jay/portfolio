@@ -75,7 +75,7 @@
         color: var(--lightest-slate);
 
         @include respond(phone) {
-            font-size: 5.5rem;
+            font-size: 4.5rem;
         }
 
         &::before {

@@ -5,7 +5,7 @@ import "./introduction.scss";
 
 const Introduction = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = "Hashen ".split("");
+  // const nameArray = "Hashen ".split("");
   const nameArray2 = "angeeth,".split("");
   const jobArray = "oftware Developer".split("");
 
@@ -32,11 +32,11 @@ const Introduction = () => {
           <br />
           <span className={`${letterClass} _13`}>I</span>
           <span className={`${letterClass} _14`}>'m</span>&nbsp;
-          <AnimatedLetters
+          {/* <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
             idx={15}
-          />
+          /> */}
           <img
             src="https://res.cloudinary.com/dhbiouaym/image/upload/v1663667972/Portfolio/logo-s_fna9e6.png"
             className="intro__logos"
@@ -60,7 +60,7 @@ const Introduction = () => {
           />
         </h1>
         <h2 className="intro__headingSecondary">
-          Expertise in Frontend Development
+          A Programming Enthusiast
         </h2>
         <Link to="#" className="intro__button" onClick={handleContactMeClick}>
           Contact Me
