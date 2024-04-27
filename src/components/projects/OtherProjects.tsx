@@ -33,7 +33,73 @@ const OtherProjects = () => {
                 <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="other__cardLink">
-
+                <a
+                  href="https://gowisetha.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg className="other__icon">
+                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="other__cardBody">
+              <div className="other__cardBodyHeading">Gowisetha</div>
+              <p className="other__cardBodyDescription">
+                Gowisetha is a simple web application for weather forecasting. I
+                created this project for self-study API integration. I Used
+                React JS framework and Tailwind CSS. Also, used OpenWeather API
+                to get weather data.{" "}
+              </p>
+            </div>
+            <div className="other__cardFooter">
+              <div className="other__tags">
+                {" "}
+                React JS &nbsp; Tailwind CSS &nbsp; OpenWeather API
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="other__items">
+          <div className="other__card">
+            <div className="other__cardTop">
+              <svg className="other__cardFolder">
+                <use href="icons/symbol-defs.svg#icon-folder"></use>
+              </svg>
+              <div className="other__cardLink">
+                <a
+                  href="https://todo-app-sangeeth-jay.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg className="other__icon">
+                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="other__cardBody">
+              <div className="other__cardBodyHeading">Daily ToDo List</div>
+              <p className="other__cardBodyDescription">
+                This is my first React app and it is styled using vanila CSS. Here I used useState hook for state management. It's simple web without database.{" "}
+              </p>
+            </div>
+            <div className="other__cardFooter">
+              <div className="other__tags">
+                {" "}
+                React JS &nbsp; CSS 
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="other__items">
+          <div className="other__card">
+            <div className="other__cardTop">
+              <svg className="other__cardFolder">
+                <use href="icons/symbol-defs.svg#icon-folder"></use>
+              </svg>
+              <div className="other__cardLink">
                 <a
                   href="https://github.com/Sangeeth-jay/Coop-Fund-Mangement-System"
                   target="_blank"
@@ -69,7 +135,6 @@ const OtherProjects = () => {
                 <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="other__cardLink">
-
                 <a
                   href="https://github.com/Sangeeth-jay/boostrap-practice"
                   target="_blank"
@@ -100,7 +165,6 @@ const OtherProjects = () => {
                 <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="other__cardLink">
-
                 <a
                   href="https://github.com/Sangeeth-jay/Co-operative-Req.-Report-generator"
                   target="_blank"
@@ -124,10 +188,7 @@ const OtherProjects = () => {
               </p>
             </div>
             <div className="other__cardFooter">
-              <div className="other__tags">
-                {" "}
-                VB.net &nbsp; MS access
-              </div>
+              <div className="other__tags"> VB.net &nbsp; MS access</div>
             </div>
           </div>
         </li>
