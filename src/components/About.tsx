@@ -45,7 +45,9 @@ const About = () => {
             <li className="about__skillsItems">ExpressJS</li>
             <li className="about__skillsItems">ReactJS</li>
             <li className="about__skillsItems">MongoDb</li>
+            <li className='about__skillsItems'>Framer Motion</li>
             <li className='about__skillsItems'>Figma</li>
+            <li className='about__skillsItems'>Postman</li>
             <li className="about__skillsItems">SQL</li>
 
           </ul>
