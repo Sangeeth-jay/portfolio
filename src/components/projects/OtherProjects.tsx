@@ -30,6 +30,39 @@ const OtherProjects = () => {
           <div className="other__card">
             <div className="other__cardTop">
               <svg className="other__cardFolder">
+                <use href="icons/symbol-defs.svg#icon-github"></use>
+              </svg>
+              <div className="other__cardLink">
+                <a
+                  href="https://github.com/Sangeeth-jay/Task-App-MERN"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg className="other__icon">
+                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="other__cardBody">
+              <div className="other__cardBodyHeading">Task-App</div>
+              <p className="other__cardBodyDescription">
+                This is a simple task app. This can use to note to day to day life taks. Also this is a fully functioned CRUD application. I create
+                this project to study "MERN" stack{" "}
+              </p>
+            </div>
+            <div className="other__cardFooter">
+              <div className="other__tags">
+                {" "}
+                React JS &nbsp; Tailwind CSS &nbsp; Node JS &nbsp; Express JS &nbsp; MongoDB
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="other__items">
+          <div className="other__card">
+            <div className="other__cardTop">
+              <svg className="other__cardFolder">
                 <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="other__cardLink">
