@@ -30,7 +30,7 @@ const OtherProjects = () => {
           <div className="other__card">
             <div className="other__cardTop">
               <svg className="other__cardFolder">
-                <use href="icons/symbol-defs.svg#icon-github"></use>
+                <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="other__cardLink">
                 <a
@@ -39,7 +39,7 @@ const OtherProjects = () => {
                   rel="noreferrer"
                 >
                   <svg className="other__icon">
-                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                    <use href="icons/symbol-defs.svg#icon-github"></use>
                   </svg>
                 </a>
               </div>
