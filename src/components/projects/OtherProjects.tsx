@@ -34,6 +34,39 @@ const OtherProjects = () => {
               </svg>
               <div className="other__cardLink">
                 <a
+                  href="https://credit-card-validator-tan.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <svg className="other__icon">
+                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="other__cardBody">
+              <div className="other__cardBodyHeading">Credit Card Validator</div>
+              <p className="other__cardBodyDescription">
+                This was a simple credit card validator application created using React JS.
+                When I creating this learned about "Luhn algorythm" which is using in the industry.{" "}
+              </p>
+            </div>
+            <div className="other__cardFooter">
+              <div className="other__tags">
+                {" "}
+                React JS &nbsp; Tailwind CSS &nbsp; Luhn Algorithm
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="other__items">
+          <div className="other__card">
+            <div className="other__cardTop">
+              <svg className="other__cardFolder">
+                <use href="icons/symbol-defs.svg#icon-folder"></use>
+              </svg>
+              <div className="other__cardLink">
+                <a
                   href="https://gowisetha.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
